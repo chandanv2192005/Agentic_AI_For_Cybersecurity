@@ -1,0 +1,14 @@
+Let's look at how this changes the game for a cybersecurity objective.
+The Goal: "Investigate a sudden spike in failed logins for the user 'admin'."
+Standard AI (Non-Agentic):
+"A spike in failed logins usually indicates a brute-force attack. You should check your firewall logs, verify if the IP is known, and consider resetting the password or implementing rate limiting." (It just gives you a to-do list).
+Agentic AI:
+Thoughts: "I need to find out where these logins are coming from. I will use the query_siem tool."
+Action: [AI autonomously runs the SIEM query tool]
+Observation: [Tool returns that 500 requests came from IP 203.0.113.42]
+Thoughts: "That IP looks suspicious. Let me check its reputation using the threat_intel tool."
+Action: [AI autonomously runs the threat intel tool]
+Observation: [Tool returns that the IP is a known malicious node]
+Thoughts: "This is an active attack. I need to block the IP and alert the team."
+Action: [AI uses the firewall_block tool and the send_alert tool]
+The agent doesn't just tell you what to do; it loops through a cycle of Thinking, Acting, and Observing until the problem is solved. It uses the tools you gave it to interact with the real world.
