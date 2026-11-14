@@ -1,0 +1,4 @@
+To build an agent, you combine three distinct pieces:
+The Brain (LLM): The core reasoning engine (like GPT-4 or Gemini). In an agentic system, the AI isn't just used to chat; it is used as a logic controller to decide what to do next.
+Tools (Hands): These are standard software functions you write that the AI is allowed to trigger. A tool could be "search the web," "query a SIEM for an IP address," "run this block of Python code," or "send a Slack message."
+Memory (Notepad): The ability to remember the conversation, store past actions so it doesn't repeat itself, and hold onto long-term knowledge (like past security alerts or system architecture documentation).
