@@ -1,0 +1,1 @@
+To build an agent from scratch, you must strip away the magic of frameworks and understand the engine underneath. Every autonomous agent relies on a simple while loop executing a specific prompting pattern called ReAct (Reason + Act).
