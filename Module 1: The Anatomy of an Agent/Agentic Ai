@@ -1,0 +1,3 @@
+Think of a standard AI as a brilliantly smart brain locked in a glass jar. You can slide a piece of paper into the jar with a question, and it will slide a piece of paper back with an answer. It knows a lot, but it cannot actually do anything. It cannot read your live server logs, it cannot click a button, and it cannot run a script.
+Agentic AI is what happens when you take that brain out of the jar and give it hands, a notepad, and a workflow.
+Instead of just predicting the next word in a sentence, an AI agent is designed to achieve a goal by planning steps, using external software tools, and correcting itself if it makes a mistake.
