@@ -1,0 +1,6 @@
+The ReAct Prompt Structure
+Instead of asking an LLM to just answer a question, you give it a strict set of rules for how to behave. You force the LLM to output its response in a specific format:
+Thought: The AI explains what it needs to do next.
+Action: The AI requests to run a specific tool (function) with specific parameters.
+PAUSE: The AI stops generating text.
+Observation: Your Python script runs the requested tool, takes the output, and feeds it back to the AI.
